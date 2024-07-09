@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>akca | Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">akca</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#kimdir">Who Am I?</a></li>
+                    <li><a href="#neyapar">My Interests</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#iletisim">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- First Container -->
+    <div id="kimdir" class="container-fluid bg-1 text-center">
+        <h3 class="margin">Hello, I'm Thomas.</h3>
+        <img src="assets/profile.jpeg" class="img-responsive img-circle margin" style="display:inline" alt="thomas" width="350" height="350">
+        <h3>Software Developer</h3>
+    </div>
+
+    <!-- Second Container -->
+    <div id="neyapar" class="container-fluid bg-2 text-center">
+        <h3 class="margin">What is Lorem Ipsum?</h3>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+    </div>
+
+    <!-- Third Container (Grid) -->
+    <div id="blog" class="container-fluid bg-3 text-center">
+        <h3 class="margin">Blog</h3>
+        <br>
+        <div class="row">
+            <div class="col-sm-4">
+                <p>HyperText Markup Language (HTML) is the standard markup language for documents designed to be displayed in a web browser.</p><br>
+                <img src="assets/blog-img/item-1.jpg" class="img-responsive margin" style="width:100%" alt="html">
+            </div>
+            <div class="col-sm-4">
+                <p>JavaScript (JS), often abbreviated as JS, is a programming language and core technology of the Web, alongside HTML and CSS.</p><br><br>
+                <img src="assets/blog-img/item-2.jpg" class="img-responsive margin" style="width:100%" alt="js">
+            </div>
+            <div class="col-sm-4">
+                <p>Artificial intelligence (AI), in its broadest sense, is intelligence exhibited by machines, particularly computer systems.</p>
+                <img src="assets/blog-img/item-3.jpg" class="img-responsive margin" style="width:100%" alt="ai">
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="iletisim" class="container-fluid bg-5 text-center">
+        <h3 class="margin">Contact</h3>
+        <br>
+        <div class="row ">
+            <div class="col-sm-5 text-left">
+                <p>Contact me!</p>
+                <p><span class="glyphicon glyphicon-map-marker"></span> İstanbul, TR</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +90 555 555 55 55</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> twolker@gmail.com</p>
+            </div>
+            <div class="col-sm-7 ">
+                <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="email" placeholder="Mail" type="email" required>
+                    </div>
+                </div>
+                <textarea class="form-control" id="comments" name="comments" placeholder="Message" rows="5"></textarea>
+                <br>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-default pull-right" type="submit">Gönder</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid bg-4 text-center">
+        <p>Copyright ©2024, All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
